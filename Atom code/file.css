@@ -1,0 +1,30 @@
+
+body {
+
+background-image: url(123.jpg);
+background-repeat: no-repeat;
+background-position: 0 0;
+-moz-background-size: cover;
+-webkit-background-size: cover;
+background-size: cover;
+
+}
+
+body
+{
+  line-height: 300%;
+}
+
+/* Stili per i titoli h1 */
+h1 {
+ color: black;
+ font-family: 'Neverwinter'  ;
+}
+
+
+/* Colore del testo delle liste */
+li {color: green;}
+/* Colore dei titoli h1 per la stampa */
+@media print {
+ h1 {color: black;}
+}
